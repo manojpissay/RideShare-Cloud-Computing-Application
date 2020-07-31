@@ -1,0 +1,9 @@
+version: '2'
+services:
+    rideshare_users:
+        build: ./rideshare_users
+        ports:
+            - "80:80"
+        container_name: "users"
+        image: "users:latest"
+
